@@ -25,7 +25,7 @@ function App() {
       img: pic1,
     },
   ]);
-  const [steps, setSteps] = useState([
+  const [steps] = useState([
     {
       title: "FOR YOUR INFO",
       description: "Step by step on How to do things",

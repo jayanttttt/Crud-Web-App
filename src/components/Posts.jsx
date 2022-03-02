@@ -12,8 +12,10 @@ function Posts(props) {
             <img src={post.img} alt="img" />
             <div className="data_box">
               <div className="heading_box">
-                <p className="title_text">{post.title.slice(0,15)}</p>
-                <p className="edit_text">edit</p>
+                <p className="title_text">{post.title.slice(0, 15)}</p>
+                <Link to="/postedit">
+                  <p className="edit_text" onClick={() => handleClick(post)}>edit</p>
+                </Link>
               </div>
               <p className="description_text">
                 {post.description.slice(0, 85)}
