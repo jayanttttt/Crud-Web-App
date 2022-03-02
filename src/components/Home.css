@@ -1,0 +1,18 @@
+.show {
+  animation-name: show;
+  animation-delay: 100ms;
+  animation-duration: 800ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
